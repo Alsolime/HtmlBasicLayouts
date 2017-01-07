@@ -3,3 +3,6 @@ node_modules
 
 # exclude generated css
 Html5LayoutSass/css
+
+# exclude log
+npm-debug.log
