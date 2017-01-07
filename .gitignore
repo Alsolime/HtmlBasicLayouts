@@ -1,2 +1,5 @@
 # exclude node modules
 node_modules
+
+# exclude generated css
+Html5LayoutSass/css

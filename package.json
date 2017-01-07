@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Alsolime/HtmlBasicLayouts/issues"
   },
-  "homepage": "https://github.com/Alsolime/HtmlBasicLayouts#readme"
+  "homepage": "https://github.com/Alsolime/HtmlBasicLayouts#readme",
+  "devDependencies": {
+    "sass-lint": "^1.10.2"
+  }
 }
