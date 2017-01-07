@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/Alsolime/HtmlBasicLayouts#readme",
   "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.0.0",
     "sass-lint": "^1.10.2"
   }
 }
