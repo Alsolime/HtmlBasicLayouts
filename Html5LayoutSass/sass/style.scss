@@ -2,6 +2,12 @@ $font-stack: Helvetica,
 sans-serif;
 $primary-color: #333;
 
+$header-color: blue;
+$nav-color: cyan;
+$article-color: green;
+$aside-color: yellow;
+$footer-color: red;
+
 body {
   color: $primary-color;
   font: 100% $font-stack;
@@ -10,7 +16,7 @@ body {
 }
 
 header {
-  background: blue;
+  background: $header-color;
   color: white;
   height: 150px;
   margin-bottom: 1em;
@@ -33,7 +39,7 @@ header {
 }
 
 nav {
-  background: cyan;
+  background: $nav-color;
   height: 80px;
   margin-bottom: 1em;
   width: 100%;
@@ -59,7 +65,7 @@ nav {
 }
 
 article {
-  background: green;
+  background: $article-color;
   float: right;
   margin-bottom: 1em;
   min-height: 400px;
@@ -67,14 +73,14 @@ article {
 }
 
 aside {
-  background: yellow;
+  background: $aside-color;
   float: left;
   min-height: 400px;
   width: 30%;
 }
 
 footer {
-  background: red;
+  background: $footer-color;
   clear: both;
   height: 60px;
   width: 100%;
@@ -89,11 +95,11 @@ footer {
 
 .logo {
   background: gray;
-  height: 50px;
+  height: 100px;
   left: 20px;
   position: absolute;
   top: 20px;
-  width: 80px;
+  width: 160px;
 }
 
 // nav ul {

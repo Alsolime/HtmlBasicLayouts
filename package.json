@@ -23,7 +23,11 @@
   "homepage": "https://github.com/Alsolime/HtmlBasicLayouts#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-minify-html": "^1.0.6",
     "gulp-sass": "^3.0.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.8",
     "gulp-webserver": "^0.9.1",
     "sass-lint": "^1.10.2"
   }
